@@ -1,0 +1,1163 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+  <meta charset="UTF-8"/>\
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>\
+  <title>Snowdonia Ultra Training Guide - Spires Physio</title>\
+  <style>\
+    :root \{\
+      --spire-blue: #0266c8;\
+      --spire-blue-light: #5fa3e8;\
+      --spire-blue-dark: #014a94;\
+      --spire-white: #f8f7f4;\
+      --spire-gray: #f0ede8;\
+      --spire-gray-dark: #d4cfc8;\
+      --spire-text: #2b2520;\
+      --spire-text-light: #5c5450;\
+      --spire-accent: #ff6b4a;\
+      --spire-success: #27ae60;\
+      --spire-shadow-sm: 0 2px 8px rgba(2, 102, 200, 0.08);\
+      --spire-shadow-md: 0 4px 16px rgba(2, 102, 200, 0.12);\
+      --spire-shadow-lg: 0 8px 32px rgba(2, 102, 200, 0.15);\
+    \}\
+\
+    * \{\
+      margin: 0;\
+      padding: 0;\
+      box-sizing: border-box;\
+    \}\
+\
+    html \{\
+      scroll-behavior: smooth;\
+      font-size: 16px;\
+    \}\
+\
+    body \{\
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;\
+      background: linear-gradient(135deg, var(--spire-white) 0%, #faf8f5 100%);\
+      color: var(--spire-text);\
+      line-height: 1.6;\
+      min-height: 100vh;\
+    \}\
+\
+    header \{\
+      background: linear-gradient(135deg, var(--spire-blue) 0%, var(--spire-blue-dark) 100%);\
+      color: #ffffff;\
+      padding: 48px 24px 32px;\
+      text-align: center;\
+      box-shadow: var(--spire-shadow-lg);\
+      margin-bottom: 40px;\
+    \}\
+\
+    h1 \{\
+      font-size: 2.2rem;\
+      font-weight: 700;\
+      margin-bottom: 12px;\
+      letter-spacing: -0.5px;\
+    \}\
+\
+    .header-subtitle \{\
+      font-size: 1rem;\
+      color: #cfe9ff;\
+      font-weight: 500;\
+      max-width: 640px;\
+      margin: 0 auto;\
+      line-height: 1.5;\
+    \}\
+\
+    .container \{\
+      max-width: 1200px;\
+      margin: 0 auto;\
+      padding: 0 20px 60px;\
+    \}\
+\
+    h2 \{\
+      color: var(--spire-blue);\
+      font-size: 1.8rem;\
+      margin-top: 48px;\
+      margin-bottom: 24px;\
+      font-weight: 600;\
+      display: flex;\
+      align-items: center;\
+      gap: 12px;\
+    \}\
+\
+    h3 \{\
+      color: var(--spire-blue);\
+      font-size: 1.3rem;\
+      margin-top: 32px;\
+      margin-bottom: 16px;\
+      font-weight: 600;\
+    \}\
+\
+    .section-intro \{\
+      background: var(--spire-gray);\
+      padding: 20px 24px;\
+      border-radius: 12px;\
+      margin-bottom: 28px;\
+      border-left: 4px solid var(--spire-blue);\
+      color: var(--spire-text);\
+      line-height: 1.7;\
+    \}\
+\
+    .section-intro p \{\
+      margin-bottom: 10px;\
+    \}\
+\
+    .section-intro p:last-child \{\
+      margin-bottom: 0;\
+    \}\
+\
+    /* TRAINING TABLE STYLES */\
+    .training-table-wrapper \{\
+      overflow-x: auto;\
+      margin-bottom: 40px;\
+      border-radius: 12px;\
+      box-shadow: var(--spire-shadow-md);\
+    \}\
+\
+    table \{\
+      width: 100%;\
+      border-collapse: collapse;\
+      background: white;\
+      font-size: 0.95rem;\
+    \}\
+\
+    th \{\
+      background: var(--spire-blue);\
+      color: white;\
+      padding: 16px 12px;\
+      text-align: left;\
+      font-weight: 600;\
+      border: 1px solid var(--spire-blue-dark);\
+      font-size: 0.9rem;\
+    \}\
+\
+    td \{\
+      padding: 14px 12px;\
+      border: 1px solid var(--spire-gray-dark);\
+      color: var(--spire-text);\
+    \}\
+\
+    tbody tr:nth-child(odd) \{\
+      background: var(--spire-white);\
+    \}\
+\
+    tbody tr:nth-child(even) \{\
+      background: #fdfcfb;\
+    \}\
+\
+    tbody tr:hover \{\
+      background: #fff9f5;\
+      transition: background 0.2s ease;\
+    \}\
+\
+    td strong \{\
+      color: var(--spire-blue);\
+      font-weight: 600;\
+    \}\
+\
+    .run-type-easy \{\
+      background: #e8f4f8;\
+      padding: 4px 8px;\
+      border-radius: 6px;\
+      font-weight: 500;\
+      color: #0266c8;\
+    \}\
+\
+    .run-type-tempo \{\
+      background: #fff3e0;\
+      padding: 4px 8px;\
+      border-radius: 6px;\
+      font-weight: 500;\
+      color: #f57c00;\
+    \}\
+\
+    .run-type-hill \{\
+      background: #f3e5f5;\
+      padding: 4px 8px;\
+      border-radius: 6px;\
+      font-weight: 500;\
+      color: #7b1fa2;\
+    \}\
+\
+    .run-type-long \{\
+      background: #e8f5e9;\
+      padding: 4px 8px;\
+      border-radius: 6px;\
+      font-weight: 500;\
+      color: #2e7d32;\
+    \}\
+\
+    /* INFO BOXES */\
+    .info-box \{\
+      background: #f0f7ff;\
+      border-left: 4px solid var(--spire-blue);\
+      padding: 16px 20px;\
+      border-radius: 8px;\
+      margin: 20px 0;\
+      font-size: 0.95rem;\
+      line-height: 1.7;\
+    \}\
+\
+    .info-box.success \{\
+      background: #e8f5e9;\
+      border-left-color: var(--spire-success);\
+    \}\
+\
+    .info-box.warning \{\
+      background: #fff3e0;\
+      border-left-color: #f57c00;\
+    \}\
+\
+    .info-box strong \{\
+      color: var(--spire-blue);\
+    \}\
+\
+    /* EXERCISE CARDS */\
+    .exercise-grid \{\
+      display: grid;\
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));\
+      gap: 20px;\
+      margin: 28px 0 40px;\
+    \}\
+\
+    .exercise-card \{\
+      background: white;\
+      border-radius: 12px;\
+      padding: 20px;\
+      box-shadow: var(--spire-shadow-sm);\
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\
+      cursor: pointer;\
+      border: 2px solid transparent;\
+      display: flex;\
+      flex-direction: column;\
+    \}\
+\
+    .exercise-card:hover \{\
+      box-shadow: var(--spire-shadow-lg);\
+      transform: translateY(-4px);\
+      border-color: var(--spire-blue);\
+      background: #f9fbff;\
+    \}\
+\
+    .exercise-card:focus-within \{\
+      outline: 3px solid var(--spire-blue);\
+      outline-offset: 2px;\
+    \}\
+\
+    .exercise-img \{\
+      width: 100%;\
+      height: 180px;\
+      object-fit: cover;\
+      border-radius: 8px;\
+      background: var(--spire-gray);\
+      margin-bottom: 12px;\
+    \}\
+\
+    .exercise-title \{\
+      font-size: 1.05rem;\
+      font-weight: 600;\
+      color: var(--spire-blue);\
+      margin-bottom: 8px;\
+    \}\
+\
+    .exercise-prescription \{\
+      font-size: 0.9rem;\
+      color: var(--spire-text-light);\
+      margin-bottom: 12px;\
+      flex-grow: 1;\
+    \}\
+\
+    .exercise-technique \{\
+      font-size: 0.85rem;\
+      background: #f0f7ff;\
+      padding: 10px;\
+      border-radius: 6px;\
+      color: var(--spire-blue);\
+      font-weight: 500;\
+      margin-top: auto;\
+    \}\
+\
+    /* MODAL */\
+    .modal-overlay \{\
+      display: none;\
+      position: fixed;\
+      top: 0;\
+      left: 0;\
+      right: 0;\
+      bottom: 0;\
+      background: rgba(0, 0, 0, 0.5);\
+      z-index: 50;\
+      animation: fadeIn 0.2s ease;\
+    \}\
+\
+    .modal-overlay.active \{\
+      display: flex;\
+      align-items: center;\
+      justify-content: center;\
+    \}\
+\
+    @keyframes fadeIn \{\
+      from \{ opacity: 0; \}\
+      to \{ opacity: 1; \}\
+    \}\
+\
+    .modal-content \{\
+      background: white;\
+      border-radius: 16px;\
+      padding: 32px;\
+      max-width: 500px;\
+      width: 90%;\
+      box-shadow: var(--spire-shadow-lg);\
+      animation: slideUp 0.3s ease;\
+      max-height: 90vh;\
+      overflow-y: auto;\
+    \}\
+\
+    @keyframes slideUp \{\
+      from \{ transform: translateY(20px); opacity: 0; \}\
+      to \{ transform: translateY(0); opacity: 1; \}\
+    \}\
+\
+    .modal-header \{\
+      display: flex;\
+      justify-content: space-between;\
+      align-items: flex-start;\
+      margin-bottom: 20px;\
+    \}\
+\
+    .modal-title \{\
+      font-size: 1.4rem;\
+      font-weight: 700;\
+      color: var(--spire-blue);\
+    \}\
+\
+    .modal-close \{\
+      background: none;\
+      border: none;\
+      font-size: 1.8rem;\
+      color: var(--spire-text-light);\
+      cursor: pointer;\
+      padding: 0;\
+      width: 32px;\
+      height: 32px;\
+      display: flex;\
+      align-items: center;\
+      justify-content: center;\
+      border-radius: 6px;\
+      transition: background 0.2s;\
+    \}\
+\
+    .modal-close:hover \{\
+      background: var(--spire-gray);\
+    \}\
+\
+    .modal-image \{\
+      width: 100%;\
+      max-height: 200px;\
+      object-fit: cover;\
+      border-radius: 8px;\
+      margin-bottom: 16px;\
+    \}\
+\
+    .modal-section \{\
+      margin-bottom: 16px;\
+    \}\
+\
+    .modal-label \{\
+      font-size: 0.85rem;\
+      font-weight: 600;\
+      color: var(--spire-blue);\
+      text-transform: uppercase;\
+      letter-spacing: 0.5px;\
+      margin-bottom: 4px;\
+    \}\
+\
+    .modal-text \{\
+      font-size: 0.95rem;\
+      color: var(--spire-text);\
+      line-height: 1.6;\
+    \}\
+\
+    .technique-highlight \{\
+      background: #fff3e0;\
+      border-left: 3px solid #f57c00;\
+      padding: 12px;\
+      margin-top: 12px;\
+      border-radius: 6px;\
+      font-size: 0.9rem;\
+      font-weight: 500;\
+      color: #e65100;\
+    \}\
+\
+    /* TABS */\
+    .phase-tabs \{\
+      display: flex;\
+      gap: 12px;\
+      margin-bottom: 28px;\
+      border-bottom: 2px solid var(--spire-gray-dark);\
+      overflow-x: auto;\
+    \}\
+\
+    .phase-tab \{\
+      padding: 12px 20px;\
+      background: none;\
+      border: none;\
+      font-size: 1rem;\
+      font-weight: 500;\
+      color: var(--spire-text-light);\
+      cursor: pointer;\
+      border-bottom: 3px solid transparent;\
+      transition: all 0.2s;\
+      white-space: nowrap;\
+    \}\
+\
+    .phase-tab:hover \{\
+      color: var(--spire-blue);\
+    \}\
+\
+    .phase-tab.active \{\
+      color: var(--spire-blue);\
+      border-bottom-color: var(--spire-blue);\
+    \}\
+\
+    .tab-content \{\
+      display: none;\
+    \}\
+\
+    .tab-content.active \{\
+      display: block;\
+    \}\
+\
+    /* NUTRITION & SCALING */\
+    .cards-grid \{\
+      display: grid;\
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\
+      gap: 24px;\
+      margin: 28px 0 40px;\
+    \}\
+\
+    .card \{\
+      background: white;\
+      border-radius: 12px;\
+      padding: 24px;\
+      box-shadow: var(--spire-shadow-sm);\
+      transition: box-shadow 0.2s, transform 0.2s, background 0.2s;\
+    \}\
+\
+    .card:hover \{\
+      box-shadow: var(--spire-shadow-md);\
+      background: #f9fbff;\
+      transform: translateY(-2px);\
+    \}\
+\
+    .card h4 \{\
+      color: var(--spire-blue);\
+      margin-bottom: 12px;\
+      font-size: 1.1rem;\
+    \}\
+\
+    .card p \{\
+      font-size: 0.95rem;\
+      color: var(--spire-text);\
+      line-height: 1.7;\
+      margin-bottom: 10px;\
+    \}\
+\
+    .card p:last-child \{\
+      margin-bottom: 0;\
+    \}\
+\
+    .card ul \{\
+      margin: 12px 0;\
+      padding-left: 20px;\
+    \}\
+\
+    .card li \{\
+      margin-bottom: 8px;\
+      color: var(--spire-text);\
+    \}\
+\
+    /* SHARE SECTION */\
+    .share-section \{\
+      background: var(--spire-gray);\
+      border-radius: 12px;\
+      padding: 24px;\
+      margin-top: 40px;\
+      text-align: center;\
+      box-shadow: var(--spire-shadow-sm);\
+    \}\
+\
+    .share-label \{\
+      font-size: 0.9rem;\
+      font-weight: 600;\
+      color: var(--spire-blue);\
+      text-transform: uppercase;\
+      letter-spacing: 0.5px;\
+      margin-bottom: 12px;\
+    \}\
+\
+    .share-buttons \{\
+      display: flex;\
+      gap: 12px;\
+      justify-content: center;\
+      flex-wrap: wrap;\
+    \}\
+\
+    button \{\
+      font-family: inherit;\
+    \}\
+\
+    .btn \{\
+      padding: 11px 22px;\
+      border-radius: 8px;\
+      font-weight: 600;\
+      font-size: 0.95rem;\
+      cursor: pointer;\
+      border: none;\
+      transition: all 0.2s;\
+      white-space: nowrap;\
+    \}\
+\
+    .btn-primary \{\
+      background: var(--spire-blue);\
+      color: white;\
+    \}\
+\
+    .btn-primary:hover \{\
+      background: var(--spire-blue-dark);\
+      box-shadow: var(--spire-shadow-md);\
+    \}\
+\
+    .btn-secondary \{\
+      background: white;\
+      color: var(--spire-blue);\
+      border: 2px solid var(--spire-blue);\
+    \}\
+\
+    .btn-secondary:hover \{\
+      background: #f0f7ff;\
+    \}\
+\
+    .btn:active \{\
+      transform: scale(0.98);\
+    \}\
+\
+    .btn:focus \{\
+      outline: 3px solid var(--spire-blue);\
+      outline-offset: 2px;\
+    \}\
+\
+    .status-message \{\
+      display: inline-block;\
+      padding: 8px 12px;\
+      background: var(--spire-success);\
+      color: white;\
+      border-radius: 6px;\
+      font-size: 0.85rem;\
+      margin-top: 8px;\
+      opacity: 0;\
+      animation: slideInFade 0.3s ease forwards;\
+    \}\
+\
+    @keyframes slideInFade \{\
+      from \{ opacity: 0; transform: translateY(-10px); \}\
+      to \{ opacity: 1; transform: translateY(0); \}\
+    \}\
+\
+    /* RESPONSIVE */\
+    @media (max-width: 768px) \{\
+      h1 \{ font-size: 1.6rem; \}\
+      h2 \{ font-size: 1.4rem; \}\
+      .container \{ padding: 0 16px 40px; \}\
+      .exercise-grid \{ grid-template-columns: 1fr; \}\
+      table \{ font-size: 0.85rem; \}\
+      td, th \{ padding: 12px 8px; \}\
+    \}\
+\
+    /* ACCESSIBILITY */\
+    .skip-link \{\
+      position: absolute;\
+      top: -40px;\
+      left: 0;\
+      background: var(--spire-blue);\
+      color: white;\
+      padding: 8px;\
+      text-decoration: none;\
+      z-index: 100;\
+    \}\
+\
+    .skip-link:focus \{\
+      top: 0;\
+    \}\
+\
+    a:focus, button:focus \{\
+      outline: 3px solid var(--spire-blue);\
+      outline-offset: 2px;\
+    \}\
+  </style>\
+</head>\
+<body>\
+  <a href="#main-content" class="skip-link">Skip to main content</a>\
+\
+  <header role="banner">\
+    <h1>Snowdonia Ultra Training Guide</h1>\
+    <div class="header-subtitle">\
+      Saikat Chatterjee\
+    </div>\
+  </header>\
+\
+  <main id="main-content" class="container">\
+    <!-- OVERVIEW -->\
+    <section aria-labelledby="overview-title">\
+      <h2 id="overview-title">\uc0\u55357 \u56523  Your Training Blueprint</h2>\
+      <div class="section-intro">\
+        <p><strong>Patient:</strong> Snowdonia Ultra Preparation</p>\
+        <p><strong>Timeline:</strong> December 2025 \'96 May 2026 (16 weeks across 4 phases)</p>\
+        <p><strong>Target:</strong> Develop aerobic capacity, strength resilience, movement quality, and mental fortitude for a long-distance mountain ultra-marathon.</p>\
+        <p><strong>Key Principles:</strong> Progressive overload, load management, technical proficiency in strength work, and intelligent periodization to peak in May.</p>\
+      </div>\
+    </section>\
+\
+    <!-- PHASE TABS -->\
+    <div class="phase-tabs">\
+      <button class="phase-tab active" data-phase="phase1">Phase One: Foundation</button>\
+      <button class="phase-tab" data-phase="phase2">Phase Two: Build</button>\
+    </div>\
+\
+    <!-- PHASE ONE -->\
+    <section id="phase1" class="tab-content active" aria-labelledby="phase1-title">\
+      <h2 id="phase1-title">Phase One: Foundation & Base Building</h2>\
+      <div class="section-intro">\
+        <p><strong>Weeks 1\'966</strong></p>\
+        <p>Build a robust aerobic foundation, establish consistent training habits, and develop basic strength & core stability. This phase emphasizes <strong>frequency over intensity</strong>, with a focus on injury prevention and movement quality. Introduce hill running gradually to prepare the body for mountain terrain.</p>\
+      </div>\
+\
+      <h3>Weekly Structure (6\uc0\u8209 Week Block)</h3>\
+      <div class="training-table-wrapper">\
+        <table>\
+          <thead>\
+            <tr>\
+              <th>Week</th>\
+              <th>Monday</th>\
+              <th>Tuesday</th>\
+              <th>Wednesday</th>\
+              <th>Thursday</th>\
+              <th>Friday</th>\
+              <th>Saturday</th>\
+              <th>Sunday</th>\
+            </tr>\
+          </thead>\
+          <tbody>\
+            <tr>\
+              <td><strong>Week 1</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>45 min + S&C A</td>\
+              <td><span class="run-type-tempo">Interval Run</span><br>6 \'d7 3 min</td>\
+              <td><span class="run-type-easy">Recovery</span><br>30 min easy</td>\
+              <td><span class="run-type-hill">Hill Reps</span><br>6 \'d7 2\'963 min</td>\
+              <td><span class="run-type-easy">Recovery</span><br>30 min easy</td>\
+              <td><strong>S&C B</strong><br>45 min</td>\
+              <td><span class="run-type-long">Long Run</span><br>90 min</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 2</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>50 min + S&C A</td>\
+              <td><span class="run-type-tempo">Interval Run</span><br>7 \'d7 3 min</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min easy</td>\
+              <td><span class="run-type-hill">Hill Reps</span><br>6\'968 \'d7 2\'963 min</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min easy</td>\
+              <td><strong>S&C B</strong><br>45 min</td>\
+              <td><span class="run-type-long">Long Run</span><br>100 min</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 3</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>50 min + S&C A</td>\
+              <td><span class="run-type-tempo">Interval Run</span><br>8 \'d7 3 min</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min easy</td>\
+              <td><span class="run-type-hill">Hill Reps</span><br>6\'968 \'d7 3 min</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min easy</td>\
+              <td><strong>S&C B</strong><br>45 min</td>\
+              <td><span class="run-type-long">Long Run</span><br>110 min</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 4</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>50 min + S&C A</td>\
+              <td><span class="run-type-tempo">Interval Run</span><br>8 \'d7 3 min</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min easy</td>\
+              <td><span class="run-type-hill">Hill Reps</span><br>7\'968 \'d7 3 min</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min easy</td>\
+              <td><strong>S&C B</strong><br>45 min</td>\
+              <td><span class="run-type-long">Long Run</span><br>120 min</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 5</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>50 min + S&C A</td>\
+              <td><span class="run-type-tempo">Interval Run</span><br>8 \'d7 4 min</td>\
+              <td><span class="run-type-easy">Recovery</span><br>40 min easy</td>\
+              <td><span class="run-type-hill">Hill Reps</span><br>8 \'d7 3\'964 min</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min easy</td>\
+              <td><strong>S&C B</strong><br>45 min</td>\
+              <td><span class="run-type-long">Long Run</span><br>130 min</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 6</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>45 min + S&C A (deload)</td>\
+              <td><span class="run-type-tempo">Interval Run</span><br>6 \'d7 3 min (easy)</td>\
+              <td><span class="run-type-easy">Recovery</span><br>30 min easy</td>\
+              <td><span class="run-type-hill">Hill Reps</span><br>6 \'d7 2\'963 min (controlled)</td>\
+              <td><span class="run-type-easy">Recovery</span><br>30 min easy</td>\
+              <td><strong>S&C B</strong><br>30 min (maintenance)</td>\
+              <td><span class="run-type-long">Long Run</span><br>115 min</td>\
+            </tr>\
+          </tbody>\
+        </table>\
+      </div>\
+\
+      <h3>Strength & Conditioning \'96 Phase One</h3>\
+      <div class="info-box">\
+        <strong>Focus:</strong> Anatomic adaptation, core stability, movement quality, and injury resilience. Perform <strong>2 sessions per week</strong>. Rest 48 hours between sessions.\
+      </div>\
+      <p style="font-size: 0.9rem; color: var(--spire-text-light); margin-bottom: 20px; font-weight: 500;">\
+        <em>(Refer to PhysioTrack app for detailed video demonstrations and tracking)</em>\
+      </p>\
+\
+      <div class="exercise-grid" id="phase1-exercises"></div>\
+\
+      <h3>Running Guidance \'96 Phase One</h3>\
+      <div class="cards-grid">\
+        <div class="card">\
+          <h4>Easy Runs (45\'9660 min)</h4>\
+          <p>Conversational pace; focus on consistency and aerobic development. Should feel 4\'965/10 effort. Run on varied terrain (grass, trail, mixed).</p>\
+          <ul>\
+            <li>Builds mitochondrial density</li>\
+            <li>Improves fat oxidation</li>\
+            <li>Allows nervous system recovery</li>\
+          </ul>\
+        </div>\
+        <div class="card">\
+          <h4>Long Runs (90\'96130 min)</h4>\
+          <p>The foundation of ultra-marathon training. Start at 90 min and progress 10\'9615 min weekly. Aim for undulating terrain to build leg strength.</p>\
+          <ul>\
+            <li>Practice race-day fueling strategies</li>\
+            <li>Build mental toughness</li>\
+            <li>Develop muscular endurance</li>\
+          </ul>\
+        </div>\
+        <div class="card">\
+          <h4>Intervals & Hills</h4>\
+          <p>Intervals (Tuesday) and hill reps (Thursday) develop leg strength and speed at manageable volume. Keep form smooth; avoid sprinting the first rep.</p>\
+          <ul>\
+            <li>Improves running economy</li>\
+            <li>Builds climbing power</li>\
+            <li>Prepares muscles for Snowdonia gradients</li>\
+          </ul>\
+        </div>\
+      </div>\
+\
+      <h3>Nutrition \'96 Phase One</h3>\
+      <div class="info-box success">\
+        <strong>Daily Calories:</strong> Maintenance calories + running expenditure (roughly +500\'96700 kcal on running days). <strong>Macros:</strong> 50% carbs, 25% protein, 25% fat. <strong>Hydration:</strong> 3\'964L water daily; electrolytes on runs &gt;60 min.\
+      </div>\
+\
+      <div class="cards-grid">\
+        <div class="card">\
+          <h4>Carbohydrate Support</h4>\
+          <p>On long run days, consume 1\'961.5g carbs/kg body weight within 30 min post-run to refill glycogen and enhance recovery.</p>\
+        </div>\
+        <div class="card">\
+          <h4>Protein & Recovery</h4>\
+          <p>Aim for 1.6\'962g protein/kg daily. Include protein in all meals plus a post-S&C snack (Greek yogurt, cottage cheese, lean meat).</p>\
+        </div>\
+        <div class="card">\
+          <h4>Real Foods Focus</h4>\
+          <p>Whole grains, legumes, fruit, vegetables, eggs, fish, poultry. Prioritise nutrient density for injury resilience.</p>\
+        </div>\
+      </div>\
+\
+      <h3>Progressive Overload \'96 Phase One</h3>\
+      <div class="info-box warning">\
+        <strong>Weeks 1\'963:</strong> Build volume and introduce intervals + hills. <strong>Weeks 4\'965:</strong> Progress interval length and long run. <strong>Week 6:</strong> Deload with slightly reduced intensity and volume before phase two.\
+      </div>\
+    </section>\
+\
+    <!-- PHASE TWO -->\
+    <section id="phase2" class="tab-content" aria-labelledby="phase2-title">\
+      <h2 id="phase2-title">Phase Two: Build & Intensification</h2>\
+      <div class="section-intro">\
+        <p><strong>Weeks 7\'9616</strong></p>\
+        <p>Increase training volume and intensity. Introduce tempo runs to build lactate threshold. Hill repeats progress in duration and power output. S&C shifts toward maximal strength and power. Back-to-back long runs teach the body to run on tired legs\'97a critical ultra-marathon skill.</p>\
+      </div>\
+\
+      <h3>Weekly Structure (Overview)</h3>\
+      <div class="training-table-wrapper">\
+        <table>\
+          <thead>\
+            <tr>\
+              <th>Week</th>\
+              <th>Monday</th>\
+              <th>Tuesday</th>\
+              <th>Wednesday</th>\
+              <th>Thursday/Friday</th>\
+            </tr>\
+          </thead>\
+          <tbody>\
+            <tr>\
+              <td><strong>Week 7</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>50 min + S&C</td>\
+              <td><span class="run-type-tempo">Tempo Run</span><br>5 min WU + 20 min @ threshold + 5 min cool</td>\
+              <td><span class="run-type-easy">Recovery</span><br>30\'9635 min</td>\
+              <td><span class="run-type-long">Long Run</span><br>135 min (hilly)</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 8</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>50 min + S&C</td>\
+              <td><span class="run-type-hill">Hill Reps</span><br>5\'966 \'d7 4\'965 min (hard)</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min</td>\
+              <td><span class="run-type-long">Long Run</span><br>140 min (technical)</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 9</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>50 min + S&C</td>\
+              <td><span class="run-type-tempo">Tempo Run</span><br>5 min WU + 25 min @ threshold + 5 min cool</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min</td>\
+              <td><strong>Back-to-Back Long Runs</strong><br>Sat 4h | Sun 2h</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 10</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>45\'9650 min</td>\
+              <td><span class="run-type-hill">Hill Reps</span><br>6 \'d7 4\'966 min (hard)</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min</td>\
+              <td><span class="run-type-long">Long Run</span><br>150 min</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 11</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>50 min + light S&C</td>\
+              <td><span class="run-type-tempo">Tempo Run</span><br>5 min WU + 28 min @ threshold + 5 min cool</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35\'9640 min</td>\
+              <td><strong>Back-to-Back Long Runs</strong><br>Sat 4.5h | Sun 2.5h</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 12 (Peak)</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>50 min</td>\
+              <td><span class="run-type-hill">Hill Reps</span><br>6\'967 \'d7 5\'966 min (strong)</td>\
+              <td><span class="run-type-easy">Recovery</span><br>35 min</td>\
+              <td><strong>Peak Long Run</strong><br>180 min (race terrain)</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 13 (Taper 1)</strong></td>\
+              <td><span class="run-type-easy">Easy Run</span><br>40 min</td>\
+              <td><span class="run-type-easy">Easy Run</span><br>35 min (short strides)</td>\
+              <td><span class="run-type-easy">Recovery</span><br>30 min</td>\
+              <td><span class="run-type-long">Long Run</span><br>90 min</td>\
+            </tr>\
+            <tr>\
+              <td><strong>Week 14\'9616</strong></td>\
+              <td colspan="3">Further taper, light easy runs, short strides, and rest days.</td>\
+              <td><strong>Race Day</strong> \'96 Snowdonia Ultra</td>\
+            </tr>\
+          </tbody>\
+        </table>\
+      </div>\
+\
+      <h3>Strength & Conditioning \'96 Phase Two</h3>\
+      <div class="info-box">\
+        <strong>Focus:</strong> Maximal strength, power, and movement resilience under fatigue. Reduce volume; increase intensity. <strong>2 sessions per week</strong>. Each session should be 45\'9660 min.\
+      </div>\
+      <p style="font-size: 0.9rem; color: var(--spire-text-light); margin-bottom: 20px; font-weight: 500;">\
+        <em>(Refer to PhysioTrack app for detailed video demonstrations and tracking)</em>\
+      </p>\
+\
+      <div class="exercise-grid" id="phase2-exercises"></div>\
+\
+      <h3>Running Guidance \'96 Phase Two</h3>\
+      <div class="cards-grid">\
+        <div class="card">\
+          <h4>Tempo Runs (20\'9628 min @ threshold)</h4>\
+          <p>"Comfortably hard" pace; sustainable for the entire duration. Builds lactate threshold and aerobic capacity. Should feel 7\'968/10 effort.</p>\
+          <ul>\
+            <li>Improves speed endurance</li>\
+            <li>Develops mental toughness</li>\
+            <li>Increases aerobic power</li>\
+          </ul>\
+        </div>\
+        <div class="card">\
+          <h4>Hill Repeats (4\'966 min, hard effort)</h4>\
+          <p>Progress to longer, harder efforts. Focus on maintaining good form even as fatigue sets in. This is where power is built for steep climbs.</p>\
+          <ul>\
+            <li>Develops climbing power</li>\
+            <li>Improves quad strength</li>\
+            <li>Teaches sustained effort under fatigue</li>\
+          </ul>\
+        </div>\
+        <div class="card">\
+          <h4>Back-to-Back Long Runs</h4>\
+          <p>Key specific stimulus. Saturday long, steady; Sunday shorter but on tired legs. Keep both at easy\'96steady effort, not race pace.</p>\
+          <ul>\
+            <li>Mental resilience building</li>\
+            <li>Glycogen depletion adaptation</li>\
+            <li>Practice race-day execution</li>\
+          </ul>\
+        </div>\
+      </div>\
+\
+      <h3>Nutrition \'96 Phase Two</h3>\
+      <div class="info-box success">\
+        <strong>Daily Calories:</strong> Increase to match higher expenditure (+800\'961000 kcal on heavy days). <strong>Macros:</strong> 55% carbs, 25% protein, 20% fat. <strong>On long runs:</strong> 30\'9660g carbs/hour (gels, sports drink, real food).\
+      </div>\
+\
+      <div class="cards-grid">\
+        <div class="card">\
+          <h4>Race Day Nutrition Planning</h4>\
+          <p>Test all nutrition on long runs. Bring energy gels, sports drinks, and real foods (flapjacks, energy bars, dried fruit). Aim for 250\'96300 kcal/hour after 2 hours of running.</p>\
+        </div>\
+        <div class="card">\
+          <h4>Recovery Nutrition</h4>\
+          <p>Post-run carbs + protein within 30 min. Example: banana + Greek yogurt, or rice + chicken. This window maximises glycogen resynthesis and muscle repair.</p>\
+        </div>\
+        <div class="card">\
+          <h4>Hydration Strategy</h4>\
+          <p>On runs &gt;2h, use an electrolyte drink (sodium 500\'96700 mg/L). Practice your race day hydration strategy: how often to drink, volume per drink, and timing.</p>\
+        </div>\
+      </div>\
+\
+      <h3>Progressive Overload \'96 Phase Two</h3>\
+      <div class="info-box warning">\
+        <strong>Weeks 7\'9610:</strong> Increase long run by 10\'9615 min and progress tempo from 20 \uc0\u8594  28 min. Hill repeats 4\'965 min \u8594  5\'966 min. <strong>Weeks 11\'9612:</strong> Peak training load with back-to-back long runs. <strong>Weeks 13\'9616:</strong> Taper to arrive fresh on race day.\
+      </div>\
+\
+      <h3>Key Principles for Phases One & Two</h3>\
+      <div class="info-box">\
+        <p><strong>1. Consistency &gt; Perfection:</strong> Missing one session is fine; missing a week is a setback.</p>\
+        <p><strong>2. Listen to Your Body:</strong> If pain (not fatigue) arises, modify or rest.</p>\
+        <p><strong>3. Strength Work is Non\uc0\u8209 Negotiable:</strong> These sessions prevent injuries and build resilience for mountain running.</p>\
+        <p><strong>4. Recovery is Training:</strong> Sleep 8\'969h/night. Include 1\'962 full rest days per week.</p>\
+        <p><strong>5. Practice Everything:</strong> Test shoes, nutrition, hydration, and clothing on long runs before race day.</p>\
+      </div>\
+    </section>\
+\
+    <!-- SHARE SECTION -->\
+    <div class="share-section">\
+      <div class="share-label">\uc0\u55357 \u56510  Save & Share Your Plan</div>\
+      <div class="share-buttons">\
+        <button class="btn btn-primary" id="saveBtn">Save to Device</button>\
+        <button class="btn btn-secondary" id="shareBtn">Copy Link</button>\
+      </div>\
+      <div id="status"></div>\
+    </div>\
+  </main>\
+\
+  <!-- MODAL -->\
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">\
+    <div class="modal-content">\
+      <div class="modal-header">\
+        <h3 class="modal-title" id="modal-title"></h3>\
+        <button class="modal-close" id="modalCloseBtn" aria-label="Close modal">\'d7</button>\
+      </div>\
+      <div id="modalBody"></div>\
+    </div>\
+  </div>\
+\
+  <script>\
+    // ==================== EXERCISE DATABASE ====================\
+    const exercises = [\
+      \{\
+        id: "hip-abduction",\
+        title: "Hip Abduction \'96 Side Lying",\
+        sets: "3 sets",\
+        reps: "12 reps",\
+        prescription: "3 sets \'d7 12 reps",\
+        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23f0f7ff'/%3E%3Ccircle cx='100' cy='100' r='60' fill='%230266c8' opacity='0.3'/%3E%3Ctext x='100' y='110' font-size='24' text-anchor='middle' fill='%230266c8' font-weight='bold'%3EHip Abd%3C/text%3E%3C/svg%3E",\
+        description: "Lie on your side with knees bent at 90\'b0. Maintain a straight line from shoulder to knee. Lift your top knee upward 45\'9660\'b0, keeping your heel in contact with the bottom leg. Lower with control.",\
+        techniqueKey: "Keep hips stacked vertically. Avoid rolling backward. Full range: top knee lifts to parallel with hip.",\
+        phase: ["1", "2"],\
+        purpose: "Gluteus medius strength; lateral stability; ITB load reduction; single-leg balance."\
+      \},\
+      \{\
+        id: "step-up-weight",\
+        title: "Step Up with Weight",\
+        sets: "3 sets",\
+        reps: "5\'968 reps each leg",\
+        load: "6\'9612 kg",\
+        prescription: "3 sets \'d7 5\'968 reps, 6\'9612 kg",\
+        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23f0ede8'/%3E%3Crect x='40' y='120' width='120' height='30' fill='%230266c8'/%3E%3Ccircle cx='100' cy='60' r='30' fill='%230266c8' opacity='0.2'/%3E%3Ctext x='100' y='110' font-size='20' text-anchor='middle' fill='%230266c8' font-weight='bold'%3EStep-Up%3C/text%3E%3C/svg%3E",\
+        description: "Stand facing a 40\'9650 cm step or box. Hold dumbbells (6\'9612 kg each) at sides. Step up with your lead leg, driving through the heel. Drive your back knee up. Lower back leg with control. Alternate legs or complete all reps on one leg, then switch.",\
+        techniqueKey: "Lead leg drives the movement\'97not momentum. Torso stays upright. Control descent. Full range: back knee drives to hip height.",\
+        phase: ["1", "2"],\
+        purpose: "Quad strength; glute activation; single-leg power; improved running economy uphill."\
+      \},\
+      \{\
+        id: "calf-wall-squat",\
+        title: "Calf Raise in Wall Squat (Soleus Focus)",\
+        sets: "3 sets",\
+        reps: "12 reps",\
+        hold: "2 sec hold at top",\
+        prescription: "3 sets \'d7 12 reps, 2 sec hold",\
+        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23fff3e0'/%3E%3Crect x='10' y='80' width='10' height='100' fill='%23333'/%3E%3Ccircle cx='100' cy='90' r='35' fill='%230266c8' opacity='0.3'/%3E%3Ctext x='100' y='105' font-size='18' text-anchor='middle' fill='%230266c8' font-weight='bold'%3ECalf Wall%3C/text%3E%3C/svg%3E",\
+        description: "Position your back against a wall, feet hip-width apart, ~30 cm from wall. Lower into a squat (knees at 90\'b0). From this bent-knee position, rise onto your toes (calf raise). Hold 2 sec at the top. Lower heels with control. Repeat.",\
+        techniqueKey: "The bend in knees targets the soleus (deep calf muscle). Never lock knees. Full height: achieve full plantarflexion (toes pointed down).",\
+        phase: ["1", "2"],\
+        purpose: "Soleus strengthening; ankle stability; descent control; injury prevention."\
+      \},\
+      \{\
+        id: "bridge-single-leg",\
+        title: "Glute Bridge \'96 Single Leg, Resistance Band",\
+        sets: "3 sets",\
+        reps: "10\'9612 reps each leg",\
+        hold: "1 sec hold at top",\
+        prescription: "3 sets \'d7 10\'9612 reps, 1 sec hold",\
+        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23e8f5e9'/%3E%3Crect x='20' y='140' width='160' height='10' fill='%23999'/%3E%3Cellipse cx='100' cy='100' rx='45' ry='30' fill='%230266c8' opacity='0.2'/%3E%3Ctext x='100' y='110' font-size='18' text-anchor='middle' fill='%230266c8' font-weight='bold'%3EBridge%3C/text%3E%3C/svg%3E",\
+        description: "Lie on your back, knees bent, feet flat, hip-width apart. Place resistance band around thighs above knees. Drive through heels, lift hips to form a straight line (shoulder\'96hip\'96knee). Lift one leg straight up, maintaining level hips. Hold 1 sec. Lower. Repeat, then switch legs.",\
+        techniqueKey: "Glute-dominant movement\'97squeeze glutes at top. Keep hips level, resist band pulling knees inward.",\
+        phase: ["1", "2"],\
+        purpose: "Glute strength; hip stability; running power; descent control."\
+      \},\
+      \{\
+        id: "single-leg-calf",\
+        title: "Single Leg Calf Raise, Toes Up (Dorsiflexion)",\
+        sets: "3 sets",\
+        reps: "12 reps each leg",\
+        prescription: "3 sets \'d7 12 reps each leg",\
+        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23f3e5f5'/%3E%3Ccircle cx='100' cy='100' r='50' fill='%230266c8' opacity='0.2'/%3E%3Ctext x='100' y='105' font-size='16' text-anchor='middle' fill='%230266c8' font-weight='bold'%3ESingle Leg%3C/text%3E%3Ctext x='100' y='125' font-size='14' text-anchor='middle' fill='%230266c8'%3ECalf%3C/text%3E%3C/svg%3E",\
+        description: "Stand on one leg, using a wall for light balance. Lift toes up (dorsiflex), then rise smoothly onto the ball of your foot. Lower with control through full range. Complete reps on one leg, then switch.",\
+        techniqueKey: "Slow and controlled, no bouncing. Work through full dorsiflexion \uc0\u8594  plantarflexion range.",\
+        phase: ["1", "2"],\
+        purpose: "Single-leg ankle strength; proprioception; support for long climbs and descents."\
+      \}\
+    ];\
+\
+    // Phase mapping\
+    const phase1Exercises = exercises.filter(e => e.phase.includes("1"));\
+    const phase2Exercises = exercises.filter(e => e.phase.includes("2"));\
+\
+    // Render exercise cards\
+    function renderExercises(exs, containerId) \{\
+      const container = document.getElementById(containerId);\
+      container.innerHTML = exs.map(ex => `\
+        <div class="exercise-card" role="button" tabindex="0" data-exercise-id="$\{ex.id\}" aria-label="$\{ex.title\}">\
+          <img src="$\{ex.image\}" alt="$\{ex.title\}" class="exercise-img"/>\
+          <div class="exercise-title">$\{ex.title\}</div>\
+          <div class="exercise-prescription">$\{ex.prescription\}</div>\
+          <div class="exercise-technique">\uc0\u55357 \u56481  Tap to view technique</div>\
+        </div>\
+      `).join('');\
+\
+      container.querySelectorAll('.exercise-card').forEach(card => \{\
+        card.addEventListener('click', () => openModal(card.dataset.exerciseId));\
+        card.addEventListener('keydown', e => \{\
+          if (e.key === 'Enter' || e.key === ' ') \{\
+            e.preventDefault();\
+            openModal(card.dataset.exerciseId);\
+          \}\
+        \});\
+      \});\
+    \}\
+\
+    renderExercises(phase1Exercises, 'phase1-exercises');\
+    renderExercises(phase2Exercises, 'phase2-exercises');\
+\
+    // Modal logic\
+    const modalOverlay = document.getElementById('modalOverlay');\
+    const modalCloseBtn = document.getElementById('modalCloseBtn');\
+\
+    function openModal(exerciseId) \{\
+      const ex = exercises.find(e => e.id === exerciseId);\
+      if (!ex) return;\
+\
+      document.getElementById('modal-title').textContent = ex.title;\
+      document.getElementById('modalBody').innerHTML = `\
+        <img src="$\{ex.image\}" alt="$\{ex.title\}" class="modal-image"/>\
+        <div class="modal-section">\
+          <div class="modal-label">Prescription</div>\
+          <div class="modal-text" style="font-weight:600;color:#0266c8;">$\{ex.prescription\}</div>\
+        </div>\
+        <div class="modal-section">\
+          <div class="modal-label">How to Perform</div>\
+          <div class="modal-text">$\{ex.description\}</div>\
+        </div>\
+        <div class="modal-section">\
+          <div class="technique-highlight">\
+            <strong>\uc0\u55356 \u57263  Technique is Critical:</strong> $\{ex.techniqueKey\}\
+          </div>\
+        </div>\
+        <div class="modal-section">\
+          <div class="modal-label">Why This Exercise</div>\
+          <div class="modal-text">$\{ex.purpose\}</div>\
+        </div>\
+      `;\
+      modalOverlay.classList.add('active');\
+      modalCloseBtn.focus();\
+    \}\
+\
+    modalCloseBtn.addEventListener('click', () => \{\
+      modalOverlay.classList.remove('active');\
+    \});\
+\
+    modalOverlay.addEventListener('click', e => \{\
+      if (e.target === modalOverlay) modalOverlay.classList.remove('active');\
+    \});\
+\
+    document.addEventListener('keydown', e => \{\
+      if (e.key === 'Escape' && modalOverlay.classList.contains('active')) \{\
+        modalOverlay.classList.remove('active');\
+      \}\
+    \});\
+\
+    // Phase tabs\
+    document.querySelectorAll('.phase-tab').forEach(tab => \{\
+      tab.addEventListener('click', () => \{\
+        document.querySelectorAll('.phase-tab').forEach(t => t.classList.remove('active'));\
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));\
+        tab.classList.add('active');\
+        document.getElementById(tab.dataset.phase).classList.add('active');\
+      \});\
+    \});\
+\
+    // Storage & sharing\
+    const appKey = 'snowdonia-ultra-v3';\
+\
+    function showStatus(msg) \{\
+      const status = document.getElementById('status');\
+      status.innerHTML = `<div class="status-message">$\{msg\}</div>`;\
+      setTimeout(() => \{ status.innerHTML = ''; \}, 3000);\
+    \}\
+\
+    document.getElementById('saveBtn').addEventListener('click', () => \{\
+      const data = \{\
+        ts: new Date().toISOString(),\
+        version: 3\
+      \};\
+      localStorage.setItem(appKey, JSON.stringify(data));\
+      showStatus('\uc0\u10003  Plan saved to your device');\
+    \});\
+\
+    document.getElementById('shareBtn').addEventListener('click', () => \{\
+      const url = window.location.href.split('#')[0] + '#snowdonia-ultra-guide';\
+      navigator.clipboard.writeText(url)\
+        .then(() => showStatus('\uc0\u10003  Link copied \'96 send this to Saikat'))\
+        .catch(() => showStatus('Could not copy link \'96 copy from address bar instead.'));\
+    \});\
+\
+    window.addEventListener('load', () => \{\
+      const saved = localStorage.getItem(appKey);\
+      if (saved) showStatus('\uc0\u10003  Plan loaded from your device');\
+    \});\
+\
+    window.addEventListener('beforeunload', () => \{\
+      const data = \{\
+        ts: new Date().toISOString(),\
+        version: 3\
+      \};\
+      localStorage.setItem(appKey, JSON.stringify(data));\
+    \});\
+  </script>\
+</body>\
+</html>\
+}
